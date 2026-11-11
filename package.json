@@ -1,0 +1,16 @@
+{
+  "name": "kaj-js-ctx",
+  "version": "0.1.0",
+  "description": "Token-efficient JavaScript and TypeScript repository context CLI.",
+  "type": "module",
+  "bin": {
+    "kaj-js-ctx": "./bin/kaj-js-ctx.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/kaj-js-ctx.js && node --check src/jsctx.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
